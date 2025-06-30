@@ -19,7 +19,7 @@ option(UROSAGENT_GENERATE_PROFILE
   )
 set(CMAKE_C_CLANG_TIDY clang-tidy -checks=*)
 
-option(MICROROSAGENT_SUPERBUILD "Enable superbuild compilation." ON)
+option(MICROROSAGENT_SUPERBUILD "Enable superbuild compilation." OFF)
 option(UAGENT_USE_SYSTEM_LOGGER "Force use of system installed spdlog logger on superbuild." OFF)
 
 if(NOT MICROROSAGENT_SUPERBUILD)
